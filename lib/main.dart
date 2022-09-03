@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:heroicons/heroicons.dart';
+import 'package:mysos/home/home_page.dart';
 import 'package:mysos/pages/profile_page.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 
@@ -56,9 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
   int selected = 0;
 
   final screens =[
-    Center(
-      child: Text("Home"),
-    ),
+    // Center(
+    //   child: Text("Home"),
+    // ),
+    HomePage(),
     Center(
       child: Text("Notifications"),
     ),
